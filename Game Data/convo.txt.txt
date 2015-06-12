@@ -1,0 +1,5 @@
+"Hello, I am Jack. Your trusty law consulator.",
+"I want to make sure that you are well equipt and in good legal health so that you can be properlly protected",
+"Essential legal information you should always know is..",
+"--!--"
+"click on the subject you wish to talk in detail about"

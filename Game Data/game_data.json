@@ -1,0 +1,51 @@
+{
+    "convo": [
+        "Hello, I am Jack. Your trusty law consulator.",
+        "I want to make sure that you are well equipt and in good legal health so that you can be properlly protected",
+        "Essential legal information you should always know is..",
+        "--!--",
+        "click on the subject you wish to talk in detail about"
+    ],
+    "sub_titles": [
+        "Creating a will and planning for unplanned circumstances...",
+        "Managing property payments..",
+        "Taxes"
+    ],
+    "sub_stories": [
+        {
+            "title": "Unexpected",
+            "convo": [
+                "Great choice!"
+            ],
+            "sub_stories": [
+                {
+                    "title": "will",
+                    "convo": [
+                        "Lets begin with you're will. Would you like to make one?"
+                    ],
+                    "good": [
+                        "That is a wise decision. By having a will you can ensure that you assets are distributed the way you wish after death."
+                    ],
+                    "consequence": {
+                        "name": "Died",
+                        "date": 99,
+                        "good_prompt": "You were hit by a car and died shorty afterwards. On the bright side you were smart enough to make a will so all you assets were taken care of.",
+                        "bad_prompt": "You were hit by a car and died shorty afterwards. To make matters worse you did not have a will so your assets were misappropriated. Should have lawyered up."
+                    }
+                },
+                {
+                    "title": "property"
+                },
+                {
+                    "title": "taxes"
+                }
+            ]
+        },
+        {
+            "title": "House"
+        },
+        {
+            "title": "Taxes"
+        }
+    ]
+}
